@@ -2,7 +2,8 @@ import React from 'react'
 import Logo from "./../assets/Logo.svg"
 const HeaderComponent = () => {
   return (
-    <div className='w-[1440px] h-[620px] bg-white mx-auto relative'>
+
+    <div className='w-[1440px] bg-white mx-auto relative'>
       <div className='flex items-center justify-between'>
         <img src={Logo} alt="Logo" className='flex flex-col' />
            <div className='flex flex-wrap md:gap-6 lg:gap-8 xl:gap-10 items-center '>
@@ -19,4 +20,5 @@ const HeaderComponent = () => {
   )
 }
 
-export default HeaderComponent
+
+export default HeaderComponent;

@@ -1,1 +1,6 @@
 @import "tailwindcss";
+.bj_image {
+    background: url("./assets/up-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
